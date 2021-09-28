@@ -1,0 +1,54 @@
+
+ #content{
+ width:50%;
+ margin:20px auto;
+ border:1px solid #333;
+ }
+ form{
+ width:50%;
+ margin:20px auto;
+ color="red";
+ }
+ form div{
+ margin-top:5px;
+ }
+ #img_div{
+ width:80%;
+ padding:5px;
+ margin:0px auto;
+ margin-left:0%;
+ border:1px solid #cbcbcb;
+}
+ #img_div:after{
+ content: "";
+ display: block;
+ clear: both;
+ }
+ img{
+ float:left;
+ margin:0px;
+ width:240px;
+ height:140px;
+ }
+#images {
+  width: 70%;
+  background-color:gray;
+  color: white;
+  padding: 4px 20px;
+  margin: 5px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  border-color:#fff;
+}
+ input[name=upload] {
+  width: 83%;
+  background-color:#333;
+  color: white;
+  padding: 6px 20px;
+  margin: 5px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  border-color:#fff;
+}
